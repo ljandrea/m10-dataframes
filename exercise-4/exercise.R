@@ -2,10 +2,7 @@
 
 # Read data into a variable called `grants` using the `read.csv` function
 # Make sure *not* to read the strings as factors
-<<<<<<< HEAD
 grants <- read.csv('./data/gates_money.csv', stringsAsFactors = FALSE)
-=======
->>>>>>> 8c5f681063c311f66a0508bfc09f29dd4d7691fb
 
 # Use the View function to look at your data
 View(grants)
@@ -17,11 +14,7 @@ spending <- grants$total_amount
 is.vector(spending)
 
 # Create a variable `org` as the `organization` column of the dataset.
-<<<<<<< HEAD
 org <- grants$organization
-=======
-
->>>>>>> 8c5f681063c311f66a0508bfc09f29dd4d7691fb
 
 ### Now you can ask some more interesting questions about the dataset.  Store your answers in variables ###
 
